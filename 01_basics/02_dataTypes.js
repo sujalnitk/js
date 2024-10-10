@@ -16,6 +16,15 @@ let isLoggedIn = false
 
 // object 
 
-console.log(typeof "hitesh");
-console.log(typeof null);
-console.log(typeof undefined);
+// console.log(typeof "hitesh");
+// console.log(typeof null);
+// console.log(typeof undefined);
+
+
+// primitive and non primitive (datatypes)
+// 7 types primitive : string , number , Boolean , null , undefined , symbol , BigInt
+
+// refernce type (non primitive): arrays , objects , Functions 
+
+const id = Symbol('123')
+console.log(id);
