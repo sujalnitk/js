@@ -28,3 +28,23 @@ let isLoggedIn = false
 
 const id = Symbol('123')
 console.log(id);
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// stack (primitive) , Heap (non primitive)
+
+// stack copies value 
+// heap pass by refernce 
+
+let user = {
+    email : "sujal.com",
+    rollno : 23
+}
+
+let user1 = user
+console.log(user)
+console.log(user1)
+
+user1.email = "sujal@gmail.com"
+
+console.log(user1)
+console.log(user) // both the value has changed because object don't copt they just point out
